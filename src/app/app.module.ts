@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import {MatToolbarModule} from '@angular/material/toolbar'; //-- add @angular/material --//
 import {MatButtonModule} from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 // COMPONENTS//
 
@@ -36,8 +37,12 @@ import { BlogModule } from './modules/blog/blog.module';
     AppRoutingModule,
     MatToolbarModule,
     MatButtonModule,
-    BrowserAnimationsModule,
-    BlogModule
+    BrowserAnimationsModule, 
+
+    BlogModule,
+
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
