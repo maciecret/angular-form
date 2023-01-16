@@ -5,7 +5,9 @@ import { BookFormComponent } from './modules/book/pages/book-form/book-form.comp
 
 const routes: Routes = [
   {path: '', redirectTo: 'blog', pathMatch: 'full'},
-  {path: 'blog', component: BlogListComponent},
+  // {path: 'blog', component: BlogListComponent},
+  {path: 'blog', component: BlogListComponent, loadChildren: () => import('./modules/blog/blog.module').then(m => m.BlogModule)},
+
   
   {path: 'books', component: BookFormComponent},
   // {path: '', redirectTo: 'book', pathMatch: 'full'},

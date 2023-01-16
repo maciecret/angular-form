@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./command-bar.component.css']
 })
 export class CommandBarComponent {
+public addData():void{
 
+}
 }

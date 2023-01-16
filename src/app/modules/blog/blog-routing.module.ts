@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'blog-list',
     component: BlogListComponent
   }
 ]

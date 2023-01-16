@@ -10,12 +10,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // COMPONENTS//
 
 import { AppComponent } from './app.component';
-import { NavigationBarComponent } from './modules/blog/components/navigation-bar/navigation-bar.component';
-import { BookFormComponent } from './modules/book/pages/book-form/book-form.component';
-import { CommandBarComponent } from './modules/blog/components/command-bar/command-bar.component';
-import { BookItemComponent } from './modules/book/components/book-item/book-item.component';
-import { UserItemComponent } from './modules/user/components/user-item/user-item.component';
-import { BlogListComponent } from './modules/blog/pages/blog-list/blog-list.component';
+import { NavigationBarComponent } from './shared/components/navigation-bar/navigation-bar.component';
+// import { BookFormComponent } from './modules/book/pages/book-form/book-form.component';
+import { CommandBarComponent } from './shared/components/command-bar/command-bar.component';
+// import { BookItemComponent } from './modules/book/components/book-item/book-item.component';
+// import { UserItemComponent } from './modules/user/components/user-item/user-item.component';
+// import { BlogListComponent } from './modules/blog/pages/blog-list/blog-list.component';
+import { BlogModule } from './modules/blog/blog.module';
 
 
 
@@ -23,11 +24,11 @@ import { BlogListComponent } from './modules/blog/pages/blog-list/blog-list.comp
   declarations: [
     AppComponent,
     NavigationBarComponent,
-    BookFormComponent,
-    CommandBarComponent,
-    BookItemComponent,
-    UserItemComponent,
-    BlogListComponent,
+    // BookFormComponent,
+    CommandBarComponent
+    // BookItemComponent,
+    // UserItemComponent,
+    // BlogListComponent,
   
   ],
   imports: [
@@ -35,7 +36,8 @@ import { BlogListComponent } from './modules/blog/pages/blog-list/blog-list.comp
     AppRoutingModule,
     MatToolbarModule,
     MatButtonModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    BlogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
