@@ -1,7 +1,10 @@
-div{
+.container{
+    border-radius: 5px;
+    background-color: mediumturquoise;
+    padding: 20px;
+    /* width: 300px; */
+    margin: 50 auto;
     text-align: center;
+    
+}
 
-}
-label{
-    text-align: left;
-}
