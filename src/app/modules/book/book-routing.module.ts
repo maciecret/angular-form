@@ -1,16 +1,16 @@
-
-import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Routes, RouterModule } from '@angular/router';
 
-import { BlogFormComponent } from './pages/blog-form/blog-form.component';
+import { BookFormComponent } from './pages/book-form/book-form.component';
 
 const routes: Routes = [
   {
-    path: 'blog-list',
-    component: BlogFormComponent
+    path: 'book-form',
+    component: BookFormComponent
   }
 ]
+
 
 @NgModule({
   declarations: [],
@@ -20,4 +20,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class BlogRoutingModule { }
+export class BookRoutingModule { }
