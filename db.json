@@ -4,25 +4,25 @@
       "id": 1,
       "Title": "Divergent",
       "Author": "Veronica Roth",
-      "Description": "Book 1"
+      "Description": "In Beatrice Prior's dystopian Chicago world, society is divided into five factions, each dedicated to the cultivation of a particular virtue—Candor (the honest), Abnegation (the selfless), Dauntless (the brave), Amity (the peaceful), and Erudite (the intelligent). On an appointed day of every year, all sixteen-year-olds must select the faction to which they will devote the rest of their lives. For Beatrice, the decision is between staying with her family and being who she really is—she can't have both. So she makes a choice that surprises everyone, including herself."
     },
     {
       "id": 2,
-      "Title": "Convergent",
+      "Title": "Insurgent",
       "Author": "Veronica Roth",
-      "Description": "Book 2"
+      "Description": "One choice can transform you—or it can destroy you. But every choice has consequences, and as unrest surges in the factions all around her, Tris Prior must continue trying to save those she loves—and herself—while grappling with haunting questions of grief and forgiveness, identity and loyalty, politics and love."
     },
     {
       "id": 3,
-      "Title": "Insurgent",
+      "Title": "Allegiant",
       "Author": "Veronica Roth",
-      "Description": "Book 3"
+      "Description": "The faction-based society that Tris Prior once believed in is shattered - fractured by violence and power struggles and scarred by loss and betrayal. So when offered a chance to explore the world past the limits she's known, Tris is ready. Perhaps beyond the fence, she and Tobias will find a simple new life together, free from complicated lies, tangled loyalties, and painful memories."
     },
     {
       "id": 4,
-      "Title": "Allegiant",
-      "Author": "Allegiant",
-      "Description": "Book 4"
+      "Title": "Four",
+      "Author": "Veronica Roth",
+      "Description": "Celebrate the 10th anniversary of Divergent with a special edition of Four, a collection in the #1 New York Times bestselling series that captured the hearts of millions of readers and inspired a series of major motion pictures starring Shailene Woodley. This edition features exclusive content from Veronica Roth and beautiful reimagined cover art from award-winning illustrator Victo Ngai."
     }
   ],
   "blogs": [
@@ -39,7 +39,6 @@
       "Author": "Veronica Roth",
       "Description": "Book 2",
       "Comments": "Book 1"
-      
     },
     {
       "id": 3,
@@ -56,5 +55,4 @@
       "Comments": "Book 1"
     }
   ]
-
 }

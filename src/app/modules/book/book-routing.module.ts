@@ -10,12 +10,8 @@ const routes: Routes = [
   {
     path: 'books',
     component: BookListComponent
-  },
-  {
-    path: 'blog',
-    component: BlogFormComponent
-
   }
+  
   
 ]
 

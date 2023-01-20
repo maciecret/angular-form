@@ -1,8 +1,8 @@
-.container{
+/* .container{
     border-radius: 5px;
     background-color: rgb(32, 32, 32);
     padding: 20px;
-    /* width: 300px; */
+    width: 300px;
     margin: 50 auto;
     text-align: center;
     
@@ -34,4 +34,46 @@ input[type=text], select{
 .example-full-width {
     width: 50%;
   }
+ */
+
+ /* .container{
+    border-radius: 5px;
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    width: 300px;
+    margin: 50 auto;
+    text-align: center;
+    
+} */
+.header {
+    padding: 10px;
+    margin:50 auto;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+    
+}
+h1{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+input[type=text], select{
+    width: 80%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.example-full-width {
+    width: 100%;
+    
+
+    
+  }
+
 
