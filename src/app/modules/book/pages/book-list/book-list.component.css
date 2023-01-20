@@ -1,0 +1,23 @@
+/* .container{
+    border-radius: 5px;
+    background-color: rgb(32, 32, 32);
+    padding: 5px;
+    width: 100px;
+    margin: 50 auto;
+    text-align: center;
+    
+} */
+header{
+    display: flex;
+    /* button right */
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+h1{
+    color: aliceblue;
+}
+
+.book-container{
+    text-align: left;
+}

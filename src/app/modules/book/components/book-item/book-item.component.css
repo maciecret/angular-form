@@ -1,0 +1,14 @@
+.book {
+    background: #454045;
+    margin: 10px;
+    padding: 10px 20px; 
+    /* LENGTH X WIDTH */
+    /* CURSOR POINT DIFFERENT */
+    cursor: pointer;
+    color: aliceblue; 
+  }
+  .task h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } 

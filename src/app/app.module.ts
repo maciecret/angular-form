@@ -26,7 +26,7 @@ import { BlogModule } from './modules/blog/blog.module';
     AppComponent,
     NavigationBarComponent,
     // BookFormComponent,
-    CommandBarComponent
+    // CommandBarComponent
     // BookItemComponent,
     // UserItemComponent,
     // BlogListComponent,

@@ -1,12 +1,26 @@
 .container{
     border-radius: 5px;
-    background-color: mediumturquoise;
+    background-color: rgb(32, 32, 32);
     padding: 20px;
     /* width: 300px; */
     margin: 50 auto;
     text-align: center;
     
 }
+.header {
+    padding: 10px;
+    margin:50 auto;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+    
+}
+h1{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 input[type=text], select{
     width: 50%;
     padding: 12px 20px;
