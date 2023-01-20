@@ -3,6 +3,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import{HttpClientModule} from '@angular/common/http';
 import {MatToolbarModule} from '@angular/material/toolbar'; //-- add @angular/material --//
 import {MatButtonModule} from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -42,7 +43,8 @@ import { BlogModule } from './modules/blog/blog.module';
     BlogModule,
 
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -24,5 +24,37 @@
       "Author": "Allegiant",
       "Description": "Book 4"
     }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "Title": "Blog 1",
+      "Author": "Veronica Roth",
+      "Description": "Book 1",
+      "Comments": "Book 1"
+    },
+    {
+      "id": 2,
+      "Title": "Blog 2",
+      "Author": "Veronica Roth",
+      "Description": "Book 2",
+      "Comments": "Book 1"
+      
+    },
+    {
+      "id": 3,
+      "Title": "Blog 3",
+      "Author": "Veronica Roth",
+      "Description": "Book 3",
+      "Comments": "Book 1"
+    },
+    {
+      "id": 4,
+      "Title": "Blog 4",
+      "Author": "Allegiant",
+      "Description": "Book 4",
+      "Comments": "Book 1"
+    }
   ]
+
 }
